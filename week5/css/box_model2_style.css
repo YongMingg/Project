@@ -1,0 +1,33 @@
+div#box1 {
+    background-image: url("../image/milky_bg.jpg");
+    margin: 20px;
+    border: 5px solid rgb(18, 45, 222);
+    padding: 20px;
+    background-size: cover;
+    text-align: center;
+}
+
+h1#h_b1 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+p#txt_b1 {
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    color: white;
+}
+
+div#box2 {
+    background-image: url("../image/circle_bg.jpg");
+    margin: 60px;
+    border: 5px solid rgb(122, 198, 14);
+    padding: 90px;
+    background-size: 200px;
+}
+
+p#txt_b2 {
+    font-size: 18px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: rgb(0, 255, 115);
+}
