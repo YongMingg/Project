@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+img {
+    float: right;
+    height: 525px;
+}
+
+div {
+    height: 525px;
+    margin-top: 90px;
+    border-left: 2px solid rgb(247, 247, 221);
+    border-right: 2px solid rgb(247, 247, 221);
+}
+
+div#div_txt {
+    text-align: center;
+    border-right: none;
+    color: rgb(247, 247, 221);
+    padding-left: 90px;
+    margin-left: 90px;
+    float: left;
+}
+
+div#div_img {
+    padding-left: 110px;
+    padding-right: 105px;
+    margin-right: 90px;
+    float: right;
+}
+
+h1 {
+    font-family: 'Gloock', serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 110px;
+}
+
+p {
+    font-family: 'Comme', sans-serif;
+    font-size: 27.5px;
+}
