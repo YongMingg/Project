@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: rgb(247, 247, 221);
+}
+
+div {
+    float: left;
+    border-bottom: 2px solid rgb(247, 247, 221);
+}
+
+img {
+    height: 150px;
+}
+
+div#div_bl {
+    margin: 130px 140px 100px 150px;
+    border-bottom: none;
+}
+
+div#title {
+    width: 22%;
+    margin-right: 40px;
+    border-bottom: none;
+}
+
+div#div_aal {
+    width: 21.75%;
+    margin: 11px;
+    padding-bottom: 1px;
+}
+
+div#div_cd {
+    width: 21.75%;
+    margin: 11px;
+}
+
+div#div_fw {
+    max-width: 22%;
+    margin: 11px;
+    padding-bottom: 23px;
+}
+
+h1 {
+    font-family: 'Gloock', serif;
+    font-weight: 100;
+    font-size: 47px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Comme', sans-serif;
+    font-size: 20.5px;
+}
