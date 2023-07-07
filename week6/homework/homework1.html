@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/homework1_style.css">
+    <title>
+        Personal Info
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <div id="h_img">
+                <img src="../image/logo.png" alt="logo picture" height="180px">
+            </div>
+            <div id="h_right">
+                <div id="h_phone">
+                    <h3>Phone: 012-3456789</h3>
+                </div>
+                <div id="h_menu">
+                    <div>
+                        <a href="#">Home</a>
+                    </div>
+                    <div>
+                        <a href="#">About</a>
+                    </div>
+                    <div>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow_container">
+            <div class="slideshow">
+                <div class="slide"> <img id="image1" src="../image/E2_p1.jpg" alt="scenery picture" width="100%">
+                </div>
+                <div class="slide"> <img id="image2" src="../image/E2_p2.jpeg" alt="scenery picture" width="100%">
+                </div>
+                <div class="slide"> <img id="image3" src="../image/E2_p3.jpeg" alt="scenery picture" width="100%">
+                </div>
+                <div class="slide"> <img id="image4" src="../image/E2_p4.jpg" alt="scenery picture" width="100%">
+                </div>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("slide");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("slide");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 3000);
+                }
+            </script>
+        </div>
+        <div class="content">
+            <div class="text_content">
+                <p>Some text..
+                    <br>
+                    <br>Short essays usually involve answering a question related to course content
+                    and could be
+                    anywhere from 200 words to 750 words long, depending on the professor’s guidelines. The most
+                    challenging
+                    part of writing a short essay is the length, as you need to select the most important
+                    information to cover.
+                </p>
+            </div>
+            <div class="slidebar">
+                <h2>Link</h2>
+                <h2>Slidebar</h2>
+                <h2>Link</h2>
+            </div>
+        </div>
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+
+</html>

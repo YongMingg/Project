@@ -6,6 +6,7 @@ body {
     background-color: #F1F1F1;
     max-width: 1024px;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 .header {
@@ -61,13 +62,13 @@ body {
 
 
 
-.row {
+.content {
     background-color: #F1F1F1;
     display: flex;
 }
 
 #column_1 {
-    width: 75%;
+    flex: 2;
 }
 
 #column_1 div {
@@ -78,7 +79,7 @@ body {
 }
 
 #column_2 {
-    width: 25%;
+    flex: 1;
 }
 
 #column_2 div {
