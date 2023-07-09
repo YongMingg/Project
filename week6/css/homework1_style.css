@@ -17,6 +17,7 @@
 
 #h_phone {
     margin-top: 30px;
+    margin-right: 20px;
 }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
 }
 
 #h_menu {
+    text-align: center;
     width: 700px;
     margin-top: 100px;
     display: flex;
@@ -47,7 +49,7 @@ h3 {
 }
 
 .slideshow_container {
-    margin: 10px 20px 10px 20px;
+    margin: 30px 20px 10px 20px;
     max-width: 1160px;
     position: relative;
 }
@@ -97,22 +99,25 @@ h3 {
 }
 
 .text_content {
+    font-size: 20px;
     flex: 3;
     margin-left: 20px;
     margin-right: 10px;
     padding: 10px;
-    background-color: #adadad;
+    background-color: #ece4e4;
 }
 
 .slidebar {
+    text-align: center;
     flex: 1;
     margin-right: 20px;
     margin-left: 10px;
     padding: 10px;
-    background-color: #adadad;
+    background-color: #ece4e4;
 }
 
 .footer {
-    background-color: #adadad;
+    text-align: center;
+    background-color: #ece4e4;
     margin: 20px 20px 10px 20px;
 }
