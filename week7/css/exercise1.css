@@ -1,0 +1,89 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+#nav_bar {
+    border: 1px solid rgba(212, 212, 212, 0.564);
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 5px;
+}
+
+#menu_bar {
+    display: flex;
+}
+
+.txt_menu {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 0px 15px 0px 15px;
+}
+
+.img {
+    margin: 5px 10px 0px 10px;
+}
+
+#txt_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container {
+    position: relative;
+}
+
+#bg_img {
+    opacity: 0.8;
+}
+
+#text {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+}
+
+#txt_bottom {
+    position: absolute;
+    top: 55%;
+    left: 39%;
+}
+
+#travel_guide {
+    margin-right: 30px;
+}
+
+#world_news {
+    margin-left: 30px;
+}
+
+#owner {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#owner p {
+    margin: 0px 0px 0px 15px;
+}
+
+#describe {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border: dotted 3px white;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+#describe h2 {
+    color: red;
+}
