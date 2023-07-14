@@ -80,10 +80,15 @@ body {
     bottom: 30px;
     border: dotted 3px white;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 45px;
     color: white;
 }
 
-#describe h2 {
+#next_story {
     color: red;
+}
+
+#arrow {
+    position: absolute;
+    right: 20px;
 }
