@@ -1,0 +1,121 @@
+body {
+    max-width: 1520px;
+    margin: auto;
+}
+
+#nav_bar {
+    background-color: #A6B1E1;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+#nav_left {
+    padding-left: 20px;
+}
+
+#nav_right {
+    display: flex;
+    font-size: 17px;
+}
+
+#nav_right div {
+    padding: 15px 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#home_page {
+    background-color: #F4EEFF;
+    padding-bottom: 50px;
+}
+
+#hp_content {
+    max-height: 550px;
+    overflow: hidden;
+}
+
+#hp_background {
+    opacity: 0.3;
+    position: relative;
+}
+
+#intro {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 39%;
+    top: 28%;
+    color: #424874;
+}
+
+#YM {
+    font-size: 50px;
+}
+
+#SE {
+    font-size: 40px;
+}
+
+#hp_footer {
+    display: flex;
+    background-color: #A6B1E1;
+}
+
+.hpft_content {
+    margin: 20px 150px;
+    color: white;
+    text-align: center;
+    width: 33.33%;
+    background-color: #424874;
+    padding: 10px;
+}
+
+.hpft_content h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.hpft_content p {
+    font-size: 19px;
+    margin: 0px;
+}
+
+#about_me_page {
+    padding-top: 50px;
+    background-color: #F4EEFF;
+}
+
+#self_intro {
+    display: flex;
+    text-align: center;
+}
+
+#si_left {
+    width: 50%;
+}
+
+#si_right {
+    width: 50%;
+    font-size: 38px;
+}
+
+#si_right span {
+    font-weight: bold;
+}
+
+#skill_icon {
+    padding: 60px 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.s_icon {
+    width: 25%;
+}
