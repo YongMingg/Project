@@ -4,6 +4,7 @@ body {
 }
 
 #nav_bar {
+    width: 100%;
     background-color: #A6B1E1;
     display: flex;
     justify-content: space-between;
@@ -30,63 +31,6 @@ body {
     color: black;
 }
 
-#home_page {
-    background-color: #F4EEFF;
-    padding-bottom: 50px;
-}
-
-#hp_content {
-    max-height: 550px;
-    overflow: hidden;
-}
-
-#hp_background {
-    opacity: 0.3;
-    position: relative;
-}
-
-#intro {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    position: absolute;
-    left: 39%;
-    top: 28%;
-    color: #424874;
-}
-
-#YM {
-    font-size: 50px;
-}
-
-#SE {
-    font-size: 40px;
-}
-
-#hp_footer {
-    display: flex;
-    background-color: #A6B1E1;
-}
-
-.hpft_content {
-    margin: 20px 150px;
-    color: white;
-    text-align: center;
-    width: 33.33%;
-    background-color: #424874;
-    padding: 10px;
-}
-
-.hpft_content h1 {
-    font-size: 50px;
-    margin: 0px;
-}
-
-.hpft_content p {
-    font-size: 19px;
-    margin: 0px;
-}
-
 #about_me_page {
     padding-top: 50px;
     background-color: #F4EEFF;
@@ -95,6 +39,7 @@ body {
 #self_intro {
     display: flex;
     text-align: center;
+    align-items: center;
 }
 
 #si_left {
@@ -103,15 +48,32 @@ body {
 
 #si_right {
     width: 50%;
-    font-size: 38px;
+    font-size: 28px;
 }
 
 #si_right h1 {
-    font-size: 65px;
+    font-size: 180%;
 }
 
 #si_right span {
     font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    #si_left {
+        width: 100%;
+    }
+
+    #si_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    #self_intro {
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
 }
 
 #skill_icon {
@@ -132,16 +94,57 @@ body {
 }
 
 #my_skill h1 {
-    font-size: 65px;
+    font-size: 55px;
 }
+
+#progress_bar progress {
+    width: 30%;
+}
+
+#pb1 {
+    display: flex;
+}
+
+/*
+#pb2 {
+    display: flex;
+}
+
+#pb3 {
+    display: flex;
+} */
+
+/* #progress_bar {
+    width: 40%;
+    height: 20px;
+    background-color: #F4EEFF;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#progress_bar progress {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #A6B1E1;
+    border-radius: 8px;
+}
+
+#progress_bar::before {
+    background-color: #A6B1E1;
+}
+
+#progress_bar progress::-webkit-progress-value {
+    background-color: #A6B1E1;
+} */
 
 #edu {
     background-color: #F4EEFF;
     font-size: 26px;
+    padding-bottom: 30px;
 }
 
 #edu h1 {
-    font-size: 65px;
+    font-size: 55px;
     text-align: center;
 }
 
@@ -155,7 +158,7 @@ body {
     padding: 20px;
     border-left: 2px solid #A6B1E1;
     position: relative;
-    margin-left: 500px;
+    margin-left: 50%;
 }
 
 #t-item1::before {
@@ -174,7 +177,7 @@ body {
     padding: 20px;
     border-right: 2px solid #A6B1E1;
     position: relative;
-    margin-right: 498px;
+    margin-right: 49.8%;
     text-align: right;
 }
 
@@ -194,7 +197,7 @@ body {
     padding: 20px;
     border-left: 2px solid #A6B1E1;
     position: relative;
-    margin-left: 500px;
+    margin-left: 50%;
 }
 
 #t-item3::before {
