@@ -1,0 +1,132 @@
+body {
+    max-width: 1520px;
+    margin: auto;
+}
+
+#nav_bar {
+    width: 100%;
+    background-color: #A6B1E1;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav_left {
+    padding-left: 20px;
+}
+
+#nav_right {
+    display: flex;
+    font-size: 17px;
+}
+
+#nav_right div {
+    padding: 15px 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact_me {
+    background-color: #F4EEFF;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#contact_me h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.cm_content {
+    width: 50%;
+}
+
+#cm_content_info {
+    background-color: #DCD6F7;
+    margin-right: 3%;
+}
+
+.icon {
+    flex: 1;
+    padding: 3%;
+}
+
+.text {
+    flex: 5;
+    align-items: center;
+}
+
+#icon_sm {
+    display: flex;
+    margin: 5%;
+}
+
+#icon_sm div {
+    width: 33.33%;
+}
+
+#send_message {
+    background-color: #424874;
+    padding: 2%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#send_message h2 {
+    color: #F4EEFF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+}
+
+#editable_text {
+    display: flex;
+}
+
+#sm_info {
+    width: 50%;
+}
+
+#sm_info div {
+    margin: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    background-color: #FFFFFF;
+}
+
+#sm_message {
+    margin: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+#btn_sendmessage {
+    margin-left: 43%;
+    margin-right: 43%;
+    text-align: center;
+    background-color: #DCD6F7;
+    padding: 1% 2%;
+}
+
+#send_message a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
