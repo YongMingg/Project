@@ -89,6 +89,14 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    #YM {
+        font-size: 42px;
+    }
+
+    #SE {
+        font-size: 32px;
+    }
+
     #hp_footer {
         text-align: center;
         flex-wrap: wrap;
