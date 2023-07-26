@@ -32,6 +32,10 @@ body {
     color: black;
 }
 
+.menu a:hover {
+    color: #F4EEFF;
+}
+
 #my_work {
     background-color: #F4EEFF;
     padding-bottom: 30px;

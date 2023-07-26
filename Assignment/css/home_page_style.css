@@ -32,6 +32,10 @@ body {
     color: black;
 }
 
+.menu a:hover {
+    color: #F4EEFF;
+}
+
 #home_page {
     background-color: #F4EEFF;
     padding-bottom: 50px;

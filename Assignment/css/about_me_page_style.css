@@ -32,6 +32,10 @@ body {
     color: black;
 }
 
+.menu a:hover {
+    color: #F4EEFF;
+}
+
 #about_me_page {
     padding-top: 50px;
     background-color: #F4EEFF;

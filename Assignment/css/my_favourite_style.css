@@ -32,6 +32,10 @@ body {
     color: black;
 }
 
+.menu a:hover {
+    color: #F4EEFF;
+}
+
 #my_favourite {
     background-color: #F4EEFF;
     padding-top: 20px;
