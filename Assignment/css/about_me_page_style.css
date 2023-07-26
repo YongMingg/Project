@@ -240,6 +240,7 @@ body {
         position: none;
         margin: 5%;
         display: flex;
+        background-color: #DCD6F7;
     }
 
     #t-item1::before {
@@ -260,7 +261,8 @@ body {
         position: none;
         margin: 5%;
         display: flex;
-        flex-direction: row-reverse;
+        text-align: left;
+        background-color: #DCD6F7;
     }
 
     #t-item2::before {
@@ -275,16 +277,13 @@ body {
         border: none;
     }
 
-    #t-content-middle {
-        padding-right: 3%;
-    }
-
     #t-item3 {
         padding: 20px;
         border: 5px solid #424874;
         position: none;
         margin: 5%;
         display: flex;
+        background-color: #DCD6F7;
     }
 
     #t-item3::before {
