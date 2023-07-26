@@ -77,7 +77,7 @@ body {
 
 #my_skill {
     background-color: #DCD6F7;
-    padding: 20px 120px;
+    padding: 1% 6%;
     text-align: center;
 }
 
@@ -85,45 +85,76 @@ body {
     font-size: 55px;
 }
 
-#progress_bar progress {
-    width: 30%;
-}
-
-#pb1 {
-    display: flex;
-}
-
-/*
-#pb2 {
-    display: flex;
-}
-
-#pb3 {
-    display: flex;
-} */
-
-/* #progress_bar {
-    width: 40%;
-    height: 20px;
-    background-color: #F4EEFF;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-#progress_bar progress {
+#progress_bar {
     width: 100%;
-    height: 100%;
-    border: 1px solid #A6B1E1;
-    border-radius: 8px;
 }
 
-#progress_bar::before {
-    background-color: #A6B1E1;
+.pb {
+    display: flex;
 }
 
-#progress_bar progress::-webkit-progress-value {
-    background-color: #A6B1E1;
-} */
+.pb h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.pb p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.div_text {
+    position: relative;
+}
+
+.percentage {
+    position: absolute;
+    top: 20%;
+}
+
+.div_pb {
+    width: 50%;
+    margin: 1% 7%;
+}
+
+.pb1 {
+    width: 100%;
+    padding: 4%;
+}
+
+.pb2 {
+    width: 100%;
+    padding: 4%;
+}
+
+.pb3 {
+    width: 100%;
+    padding: 4%;
+}
+
+#p_C {
+    left: 85%;
+}
+
+#p_Cpp {
+    left: 80%;
+}
+
+#p_html {
+    left: 78%;
+}
+
+#p_css {
+    left: 73%;
+}
+
+#p_photoshop {
+    left: 65%;
+}
+
+#p_java {
+    left: 81%;
+}
 
 #edu {
     background-color: #F4EEFF;
@@ -226,6 +257,15 @@ body {
 
     #about_me_page h1 {
         font-size: 40px;
+    }
+
+    .pb {
+        flex-wrap: wrap;
+    }
+
+    .div_pb {
+        width: 100%;
+        margin: 3% 7%;
     }
 
     #timeline {
