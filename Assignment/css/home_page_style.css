@@ -27,6 +27,10 @@ body {
     padding: 15px 25px;
 }
 
+#this_page {
+    text-decoration: underline;
+}
+
 .menu a {
     text-decoration: none;
     color: black;
