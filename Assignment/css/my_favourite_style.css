@@ -1,6 +1,7 @@
 body {
     max-width: 1520px;
     margin: auto;
+    font-family: 'Inter', sans-serif;
 }
 
 #nav_bar {
